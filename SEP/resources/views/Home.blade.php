@@ -7,12 +7,13 @@
     <title>Home</title>
 </head>
 <body>
-    
+    <h1>This is The Home page</h1>
     <a href="/about">About</a>
     
     <a href="/Contact">Contact</a>
     
     <a href="/Home">Home</a>
 
+    
 </body>
 </html>
