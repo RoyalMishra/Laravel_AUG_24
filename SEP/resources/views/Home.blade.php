@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,4 +16,12 @@
 
     
 </body>
-</html>
+</html> --}}
+
+<x-layout>
+
+    <h1>This is The Home page</h1>
+    
+
+
+</x-layout>
