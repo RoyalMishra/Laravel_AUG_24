@@ -1,0 +1,50 @@
+
+    .navbar {
+      /* background-color: #97e29c; */
+      background-color: #255d58;
+    }
+    
+    /* bootstrap.min.css | https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css */
+    
+    body {
+      /* background-color: #fff; */
+      background-color: #d5f0db;
+    }
+    
+    .form-control::placeholder {
+      /* color: #6c757d; */
+      color: #2b4a66;
+    }
+    
+    .btn-outline-success:hover {
+      /* color: #fff; */
+      /* background-color: #28a745; */
+      /* border-color: #28a745; */
+      color: #73b48c;
+      background-color: #483e32;
+      border-color: #45674d;
+    }
+    
+    .btn {
+      /* border: 1px solid transparent; */
+      border: 1px solid #64343400;
+    }
+    
+    .h1, h1 {
+      color: #a74545;
+    }
+    
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+      /* margin-bottom: .5rem; */
+      /* font-weight: 500; */
+      /* line-height: 1.2; */
+      margin-bottom: 6.5rem;
+      font-weight: 522;
+      line-height: 3.2;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      /* margin-bottom: .5rem; */
+      margin-bottom: 2.5rem;
+    }
+    
