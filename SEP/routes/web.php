@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\MyController;
+
+use App\Http\Controllers\FC;
+
 // Creating Routes For the Controller 1
 Route::get('user',[UserController::class,'getUser']);
 
@@ -48,5 +51,13 @@ Route::get('/name/{name}', function($name)
 
 // redirect method
 Route::redirect('original_name','new_page' );
+
+
+Route::get('/User/{Name}',function($Name)
+{
+    return view('Name',['Name'=>$Name]);
+}
+);
+
 
 
